@@ -1,0 +1,81 @@
+@media screen and (max-width: 600px) {
+	:root {
+		font-size: 10px;
+	}
+    .navbar-menu ul {
+        display: none;
+    }
+	#menu-icon {
+		display: block;
+	}
+	#about-section {
+		width: 100vw;
+		display: grid;
+		grid-template-columns: 100%;
+		grid-template-rows: repeat(4, auto);
+	}
+	#about-transform {
+		grid-row: 2/3;
+	}
+	.about {
+		text-align: center;
+		padding: 50px;
+	}
+	.about-desc {
+		margin: 50px auto;
+	}
+	.testimonial-container,
+	#services-section {
+		flex-direction: column;
+	}
+	.graphic-design img,
+	.photography img {
+		/* min-width: 100%; */
+		/* height: auto; */
+		height: 100%;
+		width: auto;
+		margin: auto;
+	}
+	.graphic-design div,
+	.photography div {
+		width: 100%;
+		position: absolute;
+		top: 55%;
+		left: 0%;
+		margin: 0 auto;
+		padding: 0px 25px;
+	}
+	#testimonial-section {
+		margin: 75px auto;
+	}
+	.testimonial {
+		margin: 45px auto;
+	}
+	.testimonial-desc {
+		margin: 25px auto;
+	}
+	#img-carousel {
+		flex-wrap: wrap;
+	}
+	#img-carousel img {
+		width: 50%;
+	}
+}
+@media screen and (max-width: 1000px) {
+	:root {
+		font-size: 14px;
+	}
+}
+@media screen and (min-width: 1800px) {
+	:root {
+		font-size: 24px;
+	}
+}
+@media screen and (min-width: 2000px) {
+	:root {
+		font-size: 32px;
+	}
+	.navbar-menu {
+		padding: 50px;
+	}
+}

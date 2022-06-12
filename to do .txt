@@ -1,0 +1,9 @@
+1. hero links
+2. meta tags
+3. about img responsivness
+4. about cta underline and hover 
+5. set explicit height and width to img to avoid layout shift
+6. footer and testimonial title and profession lack contrast
+7. svg links do not have a discernible name
+8. add aria elements
+9. changes img source responsivness
